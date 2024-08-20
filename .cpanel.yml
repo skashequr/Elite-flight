@@ -2,7 +2,7 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/eliteflight/public_html/
-    - cd "C:\Sheikh Project\Elite-flight"
+    - cd /path/to/your/react/project
     - npm install   # Install dependencies
     - npm run build # Build the React project
     - cp -r build/* $DEPLOYPATH
